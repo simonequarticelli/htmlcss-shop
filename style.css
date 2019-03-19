@@ -1,10 +1,39 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-.container {
+body{
+  text-align: center;
+}
+
+.container{
+  display: inline-block;
+  position: relative;
+}
+
+.sconto30{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: green;
+}
+
+.sconto5{
+  position: absolute;
+  right: 0;
+  top: 0;
   background-color: red;
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
+}
+
+#cuore{
+  color: red;
+  position: absolute;
+  bottom: 5px;
+  right: 50%;
+  font-size: 40px;
+  display: none;
+  }
+
+div:hover #cuore{
+  display: block;
 }
