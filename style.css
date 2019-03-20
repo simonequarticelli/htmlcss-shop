@@ -34,7 +34,7 @@ body{
   display: none;
   }
 
-div:hover #cuore{
+.container:hover #cuore{
   display: block;
 }
 
